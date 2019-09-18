@@ -2,11 +2,13 @@
 \chapter{INTRODUÇÃO}
 
 
-O sucesso de uma cadeia de suprimentos pela perspectiva da indústria pode ser calculado a partir dos KPIs (\textit{Key Performance Indicator}) desenvolvidos pela mesma. Porém diferente de muitos outros setores, a industria tem poucos KPIs relacionados à cadeia de suprimentos e mesmo os existentes não são difundidos dentre as mesmas, e pouco se sabe sobre processos e criação de KPIs diretamente relacionados à cadeia de suprimentos \cite{chae2009developing}.
+O sucesso de uma indústria pode ser calculado a partir dos KPIs (\textit{Key Performance Indicator}) desenvolvidos pela mesma. Porém diferente de muitos outros setores, a industria tem poucos KPIs relacionados à cadeia de suprimentos e mesmo os existentes não são difundidos dentre as mesmas. Pouco se sabe sobre processos e criação de KPIs diretamente relacionados à cadeia de suprimentos nas industrias situadas em paises em desenvolvimento \cite{chae2009developing}.
 
-Um dos problemas da industria alimentícia, principalmente a de produtos perecíveis, é como calcular a quantidade de cada SKU (\textit{Stock Keeping Unit}) a ser fabricada nos próximos meses; já que o estoque, nesses casos,  além de capital parado, corre o risco de não chegar às prateleiras do comércio, e quando chega, tem seu tempo de prateleira significantemente reduzido. Em contrapartida, fabricar produtos a baixo da demanda do mercado leva a perda de receita \cite{aburto2007improved}.
+Um dos problemas da industria alimentícia, principalmente a de produtos perecíveis, é como calcular a quantidade de cada SKU (\textit{Stock Keeping Unit}) a ser fabricada nos próximos meses; já que o estoque,  além de capital parado, corre o risco de não chegar às prateleiras do comércio. Quando este chega, tem seu tempo de prateleira significantemente reduzido. Em contrapartida, fabricar produtos abaixo da demanda do mercado leva a perda de receita \cite{aburto2007improved}, Portanto um balanço deve ser atingido.
 
-Grande parte das industrias produtoras de alimento em países em desenvolvimento ainda utilizam sistemas arcaicos em conjunto com predições intuitivas para projetar sua produção. Quando a demanda é sazonal, é ainda mais dificil de calcular a produção de algum SKU, causando as perdas mencionadas anteriormente \cite{yenradee2001demand}. Para resolver os problemas supracitados, este trabalho visa avaliar as técnicas atuais de previsão de demanda visando a perspectiva da industria.
+Visto que um pedido de matéria prima - sendo ele superior à demanda do mercado para o mesmo período -  feita à um fornecedor pode trazer prejuízos para uma industria, todo seu planejamento deve ser cuidadosamente calculado para evitar disperdícios, assim como o planejamento do fornecedor e de toda a cadeia afetada. Dessa forma, grupo de empresas pode se tornar interdependente por ser afetado pelas decisões daqueles que fazem parte da mesma cadeia.
+
+Grande parte das industrias produtoras de alimento em países em desenvolvimento, ainda utilizam sistemas arcaicos em conjunto com predições intuitivas para projetar sua produção. Quando a demanda é sazonal, é ainda mais dificil de calcular a produção de SKUs, causando as perdas mencionadas anteriormente \cite{yenradee2001demand}. Os problemas supracitados sugerem uma avaliação das técnicas atuais de previsão de demanda visando a perspectiva da industria.
 
 \section{Objetivos}
 Este trabalho tem como objetivo avaliar as técnicas atuais de previsão de demanda em uma cadeia de suprimentos com foco na visão da industria produtora, visando auxiliar a industria a gerenciar sua produção futura baseada nas suas vendas.
@@ -28,6 +30,9 @@ Este trabalho será organizado como descrito a seguir:
 Neste capítulo, serão explorados os conceitos utilizados nesse trabalho, dentre eles conceitos específicos sobre uma cadeia de suprimentos  e sobre aprendizado de máquina, em específico análise de séries temporais.
 
 \section{Cadeia de Suprimentos}
+Segundo \citep{mentzer2001defining} uma cadeia de suprimentos pode ser definida como  a coordenação sistêmica e estratégica  das funções de negócio dentro de uma empresa ou de um grupo de empresas. Estas com o propósito de melhorar o desempenho comercial das partes envolvidas.
+
+Com a definição acima, podemos visualizar a cadeia de suprimentos como um \textit{pipeline} multi direcional, onde o fluxo de informação e de produtos flui entre os membros de uma mesma cadeia.
 
 \section{Aprendizado de Maquina}
 
