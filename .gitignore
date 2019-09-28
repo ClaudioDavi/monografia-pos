@@ -276,3 +276,7 @@ TSWLatexianTemp*
 # Makeindex log files
 *.lpz
 
+# Python
+env/
+__pycache--/
+.ipynb_checkpoints/
